@@ -1,14 +1,13 @@
 # Host to use for canonical URL generation (without trailing slash)
-host: https://ministryofjustice.github.io/template-documentation-site
-
+host: https://ministryofjustice.github.io/azure-landing-zone
 # Header-related options
 show_govuk_logo: true
-service_name: Template Documentation Site
-service_link: /template-documentation-site
+service_name: Azure LAnding Zone
+service_link: /azure-landing-zone
 
 # Links to show on right-hand-side of header
 header_links:
-  GitHub: https://github.com/ministryofjustice/template-documentation-site
+  GitHub: https://github.com/ministryofjustice/azure-landing-zone
 
 # Enables search functionality. This indexes pages only and is not recommended for single-page sites.
 enable_search: true
@@ -28,5 +27,5 @@ max_toc_heading_level: 3
 prevent_indexing: true
 
 show_contribution_banner: true
-github_repo: ministryofjustice/template-documentation-site
+github_repo: ministryofjustice/azure-landing-zone
 github_branch: main
