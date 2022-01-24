@@ -2,7 +2,7 @@
 host: https://ministryofjustice.github.io/azure-landing-zone
 # Header-related options
 show_govuk_logo: true
-service_name: Azure LAnding Zone
+service_name: Azure Landing Zone
 service_link: /azure-landing-zone
 
 # Links to show on right-hand-side of header
