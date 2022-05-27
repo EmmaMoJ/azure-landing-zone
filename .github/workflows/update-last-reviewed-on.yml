@@ -1,0 +1,17 @@
+name: Update last_reviewed_on
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - source/documentation/**
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Update last_reviewed_on
+        shell: pwsh
+        run: ./scripts/update-last-reviewed-on.ps1
